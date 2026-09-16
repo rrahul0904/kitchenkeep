@@ -1,0 +1,9 @@
+{
+  "name": "KitchenKeep",
+  "short_name": "KitchenKeep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f5ee",
+  "theme_color": "#173d2d",
+  "description": "A calm place for recipes worth cooking."
+}
