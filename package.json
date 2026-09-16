@@ -7,7 +7,7 @@
     "dev": "node server.mjs",
     "start": "node server.mjs",
     "test": "NODE_ENV=test node --test --test-concurrency=1",
-    "check": "node --check server.mjs && node --check public/app.js && node --check public/sw.js && node --check lib/ai-extractor.mjs && node --check lib/ingredients.mjs && node --check lib/pdf-text.mjs && node --check lib/recipe-parser.mjs && node --check lib/youtube.mjs && npm test"
+    "check": "node --check server.mjs && node --check api/import.mjs && node --check api/health.mjs && node --check public/app.js && node --check public/sw.js && node --check lib/ai-extractor.mjs && node --check lib/ingredients.mjs && node --check lib/pdf-text.mjs && node --check lib/recipe-parser.mjs && node --check lib/youtube.mjs && npm test"
   },
   "engines": { "node": ">=20" }
 }
